@@ -16,14 +16,12 @@ namespace ConsoleApp5
             {
                 a++;
                 schet = 0;
-                //Console.WriteLine("{0}", a);
                 for (i = 1; i < 21; i++)
                 {
                     if (a % i != 0) i = 21;
                     if (a % i == 0)
                     {
                         schet++;
-                        //Console.WriteLine("{0}", min);
                     }
                     if (schet == 20)
                     {
